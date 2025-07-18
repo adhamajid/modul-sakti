@@ -1,0 +1,2 @@
+# Method 1: Try using copy command (works with some printers) Must set default printer in Windows
+                result = subprocess.run(['notepad', '/p', temp_file_path], capture_output=True, text=True, timeout=30)
